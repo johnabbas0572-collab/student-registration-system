@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Student Registration Page</title>
+        <link rel="stylesheet" href="01_studentRegistration_Polished_style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Student Registration</h1>            
+        </header>
+
+        <main>
+            <div class="section-1">
+                <div class="form-container">
+                    <form class="form-box">
+                        <div class="image-container">
+                            <img class="logo" src="https://png.pngtree.com/png-vector/20220816/ourmid/pngtree-template-for-logo-designs-of-schools-university-academy-and-courses-vector-png-image_38466602.png">
+                        </div>
+
+                        <input id="name-container" class="input-container" type="text" placeholder="name" required>
+
+                        <br><br>
+
+                        <input id="age-container" class="input-container" type="number" placeholder="age" required>
+                        
+                        <br><br>
+
+                        <input id="email-container" class="input-container" type="email" placeholder="email" reqiured>
+                        
+                        <br><br>
+
+                        <div class="selector-box">
+                            <label>Course</label>
+                            <select id="course-container">
+                                <option class="option-container">B.tech</option>
+                                <option class="option-container">B.a</option>
+                                <option class="option-container">B.pharma</option>
+                                <option class="option-container">MBA</option>
+                            </select>    
+                        </div>
+
+                        <br><br>
+
+                        <div class="button-container">
+                            <button class="add-button" type="button" onclick="parentFunction()">Add student</button>
+                        </div>
+                    </form>                
+                </div>
+            </div>
+            <div class="section-2">
+                <h2>Registered Students</h2>
+
+                <div class="table-container">
+                    <table class="table-box" border="1">
+                        <thead>
+                             <tr>
+                                <th>Name</th>
+                                <th>Age</th>
+                                <th>email</th>
+                                <th>Course</th>
+                                <th>Action</th>
+                                <th>Edit</th>
+                            </tr>
+                        </thead>
+                        <tbody id="studentTableBody" class="table-body">
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <i>Designed by John Abbas.</i>
+        </footer>
+
+        <script src="01_script_studentRegistration.js"></script>
+
+    </body>
+</html>
