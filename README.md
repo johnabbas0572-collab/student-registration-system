@@ -2,6 +2,10 @@
 
 A responsive Student Registration System built using HTML, CSS, and JavaScript.
 
+## 📸 Preview
+
+![Student Registration System](screenshot1.png)
+
 ## 🌐 Live Demo
 
 https://johnabbas0572-collab.github.io/student-registration-system/
